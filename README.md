@@ -1,6 +1,12 @@
 # HDSRNet
 
 > 说明：Fork 该仓库的主要原因是该项目代码根据所给参考无法正常运行。
+>
+> zxy/目录下为默认数据集，默认完整目录设置为：
+>
+> 代码： /data/HDSRNet-GR/HDSRNet
+>
+> 数据集：/data/zxy/datasets/
 
 Heterogeneous dynamic convolutional network in image super-resolution (HDSRNet) is conducted by Chunwei Tian, Xuanyu Zhang, Jia Ren, Wangmeng Zuo, Yanning Zhang and Chia-Wen Lin. It is implemented by Pytorch.
 
@@ -36,7 +42,7 @@ openCv for Python
 
 ```
 # 环境依赖
-# python 3.8
+# python 3.8  CUDA 11.6
 pip install torch==1.13.1 torchvision==0.14.1
 pip install matplotlib imageio scipy  scikit-image tqdm opencv-python thop ptflops
 ```
